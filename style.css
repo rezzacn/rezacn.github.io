@@ -1,0 +1,39 @@
+/* Ganti warna latar belakang navbar */
+.navbar-dark {
+  background-color: #007bff; /* Warna utama (primary) */
+}
+
+/* Ganti warna teks pada navbar */
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* Ganti warna teks pada navbar saat dihover */
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #e2edff; /* Warna merah */
+  color: #007bff;
+  border: 1px solid black;
+  transition: 2s ease-in-out;
+  border-radius: 10%;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+.jumbotron h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+.card:hover {
+  background-color: #007bff;
+  transition: 500ms ease-in-out;
+}
+section {
+  padding-top: 5rem;
+}
