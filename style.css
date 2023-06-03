@@ -30,6 +30,14 @@
   background-color: #e2edff;
 }
 
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
+
 .card:hover {
   background-color: #007bff;
   transition: 500ms ease-in-out;
