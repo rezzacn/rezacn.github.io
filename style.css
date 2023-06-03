@@ -19,7 +19,11 @@
 
 .jumbotron {
   padding-top: 6rem;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
   background-color: #e2edff;
+  margin: 0;
 }
 .jumbotron h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
